@@ -11,24 +11,26 @@ Implement linear regression and gradient descent to predict elements that make a
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 ```bash
-pip install pygame
-pip install Pillow
-pip install opencv-python
-pip install tensorflow
+pip install pandas
+pip install numpy
+pip install seaborn
+pip install praw
+pip install sklearn
+
 
 ```
 
 ## Usage
 
 ```python
-import pygame
-import sys
-import os
-from PIL import Image
+import pandas
 import numpy
-import cv2 as cv
-import tensorflow as tf
-import tensorflow.python.util.deprecation as deprecation
+import seaborn
+import praw
+import datetime
+import sklearn.model_selection
+from sklearn import preprocessing
+from matplotlib import pyplot
 ```
 
 ## Contributing
